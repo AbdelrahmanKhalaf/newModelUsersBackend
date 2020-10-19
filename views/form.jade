@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+form(method="POST" , action="/postImge", name="asd" ,enctype='multipart/from-data') ;
+  p
+  input#authore(type="text")
+  p
+  button(type="submit")
